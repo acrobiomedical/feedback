@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>匿名回饋</title>
+    <title>kcyeap的匿名回饋</title>
 
     
     <style>
@@ -152,13 +152,13 @@
 
     <div class="container">
         <div class="profile-avatar">
-            <img src="1000089268.jpg" alt="Mesh Avatar">
+            <img src="260302.jpg" alt="kcyeap Avatar">
         </div>
         
-        <h1>Mesh</h1>
-        <div class="subtitle">歡迎來到我的個人網頁空間</div>
+        <h1>kcyeap</h1>
+        <div class="subtitle">匿名回饋、職場建議、匿名告解、宣洩不滿、意見箱</div>
 
-        <div class="ask-box-title">✉️ 悄悄話提問箱</div>
+        <div class="ask-box-title">偷偷告訴我</div>
         
         <form class="ask-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
             <input type="text" name="_gotcha" style="display:none">
@@ -167,7 +167,7 @@
             <button class="submit-btn" type="submit">悄悄發送</button>
         </form>
 
-        <div class="footer">© 2026 MESH. ALL RIGHTS RESERVED.</div>
+        <div class="footer">© 2026 kcyeap. ALL RIGHTS RESERVED.</div>
     </div>
 
 </body>

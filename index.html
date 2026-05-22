@@ -158,13 +158,16 @@
         <h1>kcyeap</h1>
         <div class="subtitle">匿名回饋、職場建議、匿名告解、宣洩不滿、意見箱</div>
         
-        <form class="ask-form" action="https://formspree.io/f/xvzyadwv" method="POST">
-            <input type="text" name="_gotcha" style="display:none">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            
+            <input type="hidden" name="access_key" value="6a38455c-4159-4a3c-ba27-5f8f5d0c6349">
+            <input type="text" name="name" required>
+            <input type="email" name="email" required>
+            
             <input type="hidden" name="_next" value="https://acrobiomedical.github.io/index.html/thanks.html" />
-            
-            
             <textarea class="ask-input" name="message" placeholder="輸入你想說的話..." required></textarea>
             <button class="submit-btn" type="submit">悄悄發送</button>
+            
         </form>
 
         <div class="footer">© 2026 kcyeap. ALL RIGHTS RESERVED.</div>
